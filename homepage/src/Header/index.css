@@ -1,0 +1,15 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  background-color: blue;
+  border-radius: 5px;
+  font-size: 30px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.header-container h3 {
+  margin: 0;
+}

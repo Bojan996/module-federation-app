@@ -1,0 +1,29 @@
+.product-view-container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 800px;
+    align-items: flex-start;
+}
+
+.product-view-container img {
+    height: 400px;
+    width: 400px;
+}
+
+.product-description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: right;
+}
+
+.product-description-container h3,
+.product-description-container h5 {
+    margin: 15px 0;
+}
+
+.product-price {
+    flex: 1;
+    justify-self: flex-end;
+}

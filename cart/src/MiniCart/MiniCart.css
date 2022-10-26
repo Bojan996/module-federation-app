@@ -1,0 +1,27 @@
+.mini-cart-container {
+  position: relative;
+}
+
+.mini-cart-button {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.cart-items-container {
+  width: 490px;
+  position: absolute;
+  top: 73px;
+  right: 0;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  box-shadow: 2px 2px 2px lightgray;
+}
